@@ -1,0 +1,17 @@
+{
+  "name": "com-factory",
+  "version": "0.5.0",
+  "description": "Comments Factory: an admin panel + runner that drives Aside Browser to leave genuinely useful replies on X and Threads for your product, with Jev-based post selection and a stats dashboard.",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=23.6" },
+  "scripts": {
+    "start": "node --no-warnings src/cli.ts serve",
+    "doctor": "node --no-warnings src/cli.ts doctor",
+    "cf": "node --no-warnings src/cli.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.14.0",
+    "hono": "^4.7.0"
+  }
+}
